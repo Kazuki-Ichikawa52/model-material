@@ -53,6 +53,7 @@ loader.load("boulder_01.gltf", (gltf) => {
   rock.scale.set(2, 2, 2);
   rock.position.set(0, 0, 0);
   rock.castShadow = true;
+  renderer.render(scene, camera);
 });
 
 // ** アニメーションループ**
